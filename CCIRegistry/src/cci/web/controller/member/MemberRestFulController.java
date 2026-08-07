@@ -56,7 +56,7 @@ public class MemberRestFulController {
 					throw(new EnterpriseReadFileException("Внутренняя ошибка сервиса: " + ex.getMessage()));			
 				}
 			} else {
-				throw(new BadRequestNumberException("Некорректный УНП: длина УНП - 9 символов."));
+				throw(new BadRequestNumberException("Длина УНП не равна 9 символам."));
 			}
 
 			

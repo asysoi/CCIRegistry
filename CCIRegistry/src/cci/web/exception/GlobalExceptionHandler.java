@@ -47,7 +47,7 @@ public class GlobalExceptionHandler {
         
     @ExceptionHandler(NoHandlerFoundException.class)
     public ResponseEntity<ErrorResponse> handleNoHandlerFoundException(NoHandlerFoundException ex) {
-        ErrorResponse error = new ErrorResponse("400", "Bad Endpoint", "Метод не определен или отсутствует номер сертификата/акта экспертиз");
+        ErrorResponse error = new ErrorResponse("400", "Bad Endpoint", "Метод не определен или отсутствует номер сертификата/акта экспертиз/УНП организации");
         return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
     }
     
