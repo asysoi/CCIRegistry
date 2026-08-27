@@ -48,7 +48,7 @@
   
   <context-param>
     <param-name>upload.location</param-name>
-    <param-value>C:\Java\tomcat8\webapps\files</param-value>
+    <param-value>C:\Java\tomcat9\webapps\files</param-value>
   </context-param>
   
   <context-param>
@@ -58,7 +58,7 @@
 
   <context-param>
     <param-name>index.path</param-name>
-    <param-value>C:\Java\tomcat8\webapps\index</param-value>
+    <param-value>C:\Java\tomcat9\webapps\index</param-value>
   </context-param>   
 
   <context-param>
